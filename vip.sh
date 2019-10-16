@@ -6,7 +6,7 @@ MYIP=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*
 # set time GMT +8
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
-dbhost='localhost';
+dbhost='166.62.10.47';
 dbuser='crystalvpn_panel';
 dbpass='crystalvpn';
 dbname='crystalvpn_panel';
@@ -349,7 +349,7 @@ ini_set('display_errors', '1');
 ini_set('max_execution_time', 150);
 
 
-$DB_host = "localhost";
+$DB_host = "166.62.10.47";
 $DB_user = "crystalvpn_panel";
 $DB_pass = "crystalvpn";
 $DB_name = "crystalvpn_panel";
